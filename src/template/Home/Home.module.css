@@ -1,0 +1,57 @@
+.Home {
+    background: linear-gradient(#00000050, #00000050), url('../../assets/images/day.webp');
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.WeatherInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.WeatherDate img {
+    height: 35px;
+    width: 35px;
+    margin-right: 20px;
+}
+.Date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Date .Day {
+    font-size: 38px;
+}
+.WeatherDate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 24px;
+}
+.Temp {
+    font-size: 68px;
+    font-weight: 300;
+    text-align: center;
+}
+.Temp span {
+    position: relative;
+    left: 10px;
+}
+.Temp span:first-child {
+    font-size: 14px;
+    top: -40px;
+    margin-right: 5px;
+}
+.Temp span:last-child {
+    font-weight: 200;
+    font-size: 34px;
+    top: -24px;
+}

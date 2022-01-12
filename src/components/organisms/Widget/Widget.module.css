@@ -1,0 +1,11 @@
+.Widget {
+    height: 50vh;
+    width: 100%;
+    background: #fff;
+    border-top-left-radius: 14%;
+    border-top-right-radius: 14%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,17 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+
+}
+.Header img {
+    width: 24px;
+    height: 24px;
+}
+
+.Logo {
+    flex: 2;
+    font-weight: 600;
+}
