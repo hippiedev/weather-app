@@ -6,6 +6,10 @@
     border-radius: 20px;
     color: #000;
     border: 1px solid rgb(163, 163, 163);
+    margin-right: 20px;
+}
+.Card:last-child {
+    margin-right: 0;
 }
 .Card img {
     height: 20px;

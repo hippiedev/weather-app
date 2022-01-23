@@ -5,6 +5,10 @@
     border-top-left-radius: 14%;
     border-top-right-radius: 14%;
     padding: 20px;
+    overflow-x: scroll;
+}
+.CardWrap {
+    width: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
